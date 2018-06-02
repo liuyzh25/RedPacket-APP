@@ -123,7 +123,7 @@ public class MyAccessability extends AccessibilityService{
             Log.d("node","数量为null");
             return;
         }
-        List<AccessibilityNodeInfo> list = nodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/c31");//打开红包按钮的id
+        List<AccessibilityNodeInfo> list = nodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/c85");//打开红包按钮的id
         Log.d("i", list.size() + "个红包可以领取");
         for (AccessibilityNodeInfo n : list) {
             if (n.isClickable()) {
